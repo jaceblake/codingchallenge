@@ -1,2 +1,7 @@
 server:
   port: ${SERVER_PORT:8080}
+
+fatsecret:
+  # API Key und Secret können über Umgebungsvariable geändert werden
+  apikey: ${FATSECRET_APIKEY:67a809a5f6fe4d7b95e73e1522a501fd}
+  apisecret: ${FATSECRET_APISECRET:c822dade7fb741758201d42f41de2fcf}
